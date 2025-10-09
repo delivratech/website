@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DelivraTech | Cloud & DevOps Automation Experts</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="DelivraTech helps startups automate CI/CD pipelines, optimize cloud infrastructure, and scale reliably with expert DevOps and SRE support." />
+  <meta name="keywords" content="DevOps, CI/CD, Cloud Infrastructure, SRE, AWS, GitHub Actions, Jenkins, Automation, Cloud Optimization" />
+  <meta name="author" content="DelivraTech" />
+
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:title" content="DelivraTech | Cloud & DevOps Automation Experts" />
+  <meta property="og:description" content="Helping startups automate CI/CD, optimize cloud infrastructure, and scale with DevOps excellence." />
+  <meta property="og:image" content="https://yourusername.github.io/delivratech/og-image.png" />
+  <meta property="og:url" content="https://delivratech.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DelivraTech | Cloud & DevOps Automation Experts" />
+  <meta name="twitter:description" content="Helping startups automate CI/CD, optimize cloud infrastructure, and scale with DevOps excellence." />
+  <meta name="twitter:image" content="https://yourusername.github.io/delivratech/og-image.png" />
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Mobile Menu Script -->
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">DelivraTech</h1>
+      <nav class="hidden md:flex space-x-6 items-center">
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#packages" class="hover:text-blue-600">Packages</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+        <a href="https://www.linkedin.com/in/delivra-tech-a902ba389/" target="_blank" class="hover:text-blue-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4.98 3.5C4.98 2.67 5.64 2 6.47 2s1.49 .67 1.49 1.5S7.3 5 6.47 5 4.98 4.33 4.98 3.5zM4 8h4v12H4zM12 8h3.5v1.71h.05c.49-.93 1.69-1.71 3.47-1.71 3.71 0 4.38 2.44 4.38 5.61V20h-4v-5.01c0-1.19-.02-2.72-1.66-2.72-1.67 0-1.93 1.31-1.93 2.66V20h-4z" />
+          </svg>
+        </a>
+      </nav>
+      <button class="md:hidden focus:outline-none" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-blue-50 border-t border-blue-100">
+      <nav class="flex flex-col space-y-2 px-6 py-4 text-blue-700 font-medium">
+        <a href="#services" onclick="toggleMenu()">Services</a>
+        <a href="#packages" onclick="toggleMenu()">Packages</a>
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+        <a href="https://www.linkedin.com/in/delivra-tech-a902ba389/" target="_blank" class="hover:underline">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-b from-blue-600 to-blue-800 text-white px-6">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">Automate. Optimize. Deliver.</h2>
+    <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
+      DelivraTech helps startups and tech teams accelerate their growth through automated CI/CD pipelines and cloud infrastructure optimization.
+    </p>
+    <a href="#contact" class="bg-white text-blue-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+      Get in Touch
+    </a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Our Services</h3>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h4 class="text-xl font-semibold mb-3 text-blue-700">CI/CD Automation</h4>
+        <p>We design and implement robust continuous integration and delivery pipelines using GitHub Actions, Jenkins, and GitLab CI.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+        <h4 class="text-xl font-semibold mb-3 text-blue-700">Cloud Optimization</h4>
+        <p>Reduce your cloud costs and increase reliability with expert infrastructure setup and monitoring on AWS, GCP, or Azure.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition sm:col-span-2 md:col-span-1">
+        <h4 class="text-xl font-semibold mb-3 text-blue-700">Freelance DevOps & SRE</h4>
+        <p>Need a part-time or project-based expert? We provide flexible DevOps, SRE, and cloud consulting tailored to your team’s needs.</p>
+      </div>
+
+      <!-- Custom Requirements Card -->
+      <div class="bg-blue-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition border-l-4 border-blue-600">
+        <h4 class="text-xl font-semibold mb-3 text-blue-700">Custom Requirements</h4>
+        <p>Have a unique DevOps or cloud challenge? <a href="#contact" class="text-blue-600 font-semibold hover:underline">Contact us</a> to discuss your specific needs and get a tailored solution.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages -->
+  <section id="packages" class="py-16 px-6 bg-gray-100">
+    <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Service Packages</h3>
+    <div class="space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition text-center">
+        <h4 class="text-xl font-semibold text-blue-700 mb-2">Starter CI/CD</h4>
+        <p class="text-gray-600 mb-3">GitHub Actions / Jenkins + AWS setup</p>
+        <p class="font-semibold text-gray-800">₹25K–₹50K / $300–$600</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition text-center">
+        <h4 class="text-xl font-semibold text-blue-700 mb-2">SRE Essentials</h4>
+        <p class="text-gray-600 mb-3">Monitoring, alerting, uptime dashboards</p>
+        <p class="font-semibold text-gray-800">₹50K–₹75K / $600–$900</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition text-center">
+        <h4 class="text-xl font-semibold text-blue-700 mb-2">Managed DevOps Retainer</h4>
+        <p class="text-gray-600 mb-3">Monthly SLA + 24/7 monitoring + troubleshooting</p>
+        <p class="font-semibold text-gray-800">₹1L–₹1.5L / $1,200–$1,800</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition text-center">
+        <h4 class="text-xl font-semibold text-blue-700 mb-2">Cloud Cost Optimization</h4>
+        <p class="text-gray-600 mb-3">Audit + automated scripts to reduce costs</p>
+        <p class="font-semibold text-gray-800">₹25K–₹60K / $300–$750</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Free Audit CTA -->
+  <section class="py-16 bg-blue-700 text-white text-center px-6">
+    <h3 class="text-3xl font-bold mb-4">Would You Like a Free 30-Minute Audit?</h3>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">
+      Get a complimentary review of your CI/CD pipeline or cloud infrastructure. We'll identify quick wins and cost-saving opportunities.
+    </p>
+    <a href="mailto:contact@delivratech.com?subject=Free%2030-Minute%20Audit%20Request"
+       class="bg-white text-blue-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+      Request Your Free Audit
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6 text-gray-900">About DelivraTech</h3>
+    <p class="max-w-3xl mx-auto text-gray-700">
+      Founded by experienced DevOps engineers, DelivraTech partners with startups and scale-ups to simplify infrastructure management, automate deployment workflows, and ensure their systems are scalable and secure. We bring enterprise-grade reliability to lean teams.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 text-center bg-gray-50">
+    <h3 class="text-3xl font-bold mb-4 text-gray-900">Get in Touch</h3>
+    <p class="mb-8 text-gray-700">Let’s discuss how we can help automate your infrastructure and optimize your cloud stack.</p>
+    <a href="mailto:contact@delivratech.com"
+       class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+      contact@delivratech.com
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white py-6 text-center">
+    <div class="flex justify-center space-x-4 mb-2">
+      <a href="https://www.linkedin.com/in/delivra-tech-a902ba389/" target="_blank" class="hover:text-gray-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M4.98 3.5C4.98 2.67 5.64 2 6.47 2s1.49 .67 1.49 1.5S7.3 5 6.47 5 4.98 4.33 4.98 3.5zM4 8h4v12H4zM12 8h3.5v1.71h.05c.49-.93 1.69-1.71 3.47-1.71 3.71 0 4.38 2.44 4.38 5.61V20h-4v-5.01c0-1.19-.02-2.72-1.66-2.72-1.67 0-1.93 1.31-1.93 2.66V20h-4z"/>
+        </svg>
+      </a>
+    </div>
+    <p>© 2025 DelivraTech. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
